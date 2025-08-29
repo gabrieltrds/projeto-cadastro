@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de usuários</h1>
+    <p>Exercício didático (Programação para Internet II)</p>
+
+    <form onsubmit="">
+        <h3>Nome completo</h3>
+        <input type="text" id="nome" placeholder="Ex: Joaquim Barbosa">
+        <br>
+
+        <h3>CPF</h3>
+        <input type="text" id="CPF" placeholder="Ex: 000.000.000-00">
+        <br>
+
+        <h3>Login</h3>
+        <input type="text" id="login" placeholder="Ex: joca.barbosa">
+        <br>
+
+        <h3>E-mail</h3>
+        <input type="text" id="email" placeholder="Ex: joaquimbarbosa222@gmail.com">
+        <br>
+
+        <h3>Senha</h3>
+        <input type="password" id="senha" placeholder="**********">
+        <br>
+
+        <h3>Confirmar senha</h3>
+        <input type="password" id="conf_senha" placeholder="**********">
+        <br>
+
+        <h3>Salário (R$)</h3>
+        <input type="number" id="salario" placeholder="Ex: 1257.00">
+        <br>
+
+        <h3>Número de dependentes</h3>
+        <input type="number" id="dependentes" placeholder="Ex: 2">
+        <br>
+
+        <h3>IR (Calculado)</h3>
+        <input type="number" id="ir" placeholder="0,00">
+        <p>O IR será calculado ao sair do campo dependentes</p>
+        <br>
+
+        
+        <button type="submit">Cadastrar</button>
+        <button type="reset" id="btnLimpar">Limpar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
